@@ -1,0 +1,21 @@
+.navbar a {
+    color: var(--italy-white-color);
+}
+
+.navbar a:hover {
+    color: var(--italy-white-color);
+    text-decoration: none;
+}
+
+.navbarBar a:hover {
+    color: var(--italy-green-color);
+    border-bottom: 2px dashed var(--italy-green-color);
+}
+
+.navbar {
+    top: 10px;
+    border-bottom: 0px!important;
+    width: 90%;
+    border-radius: 50px;
+    margin: auto;
+}

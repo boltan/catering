@@ -1,0 +1,85 @@
+:root {
+    --italy-green-color: #008C45;
+    --italy-white-color: #F4F5F0;
+    --italy-red-color: #CD212A;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: var(--italy-white-color);
+    background: var(--italy-red-color);
+  }
+  
+  ::selection {
+    color: var(--italy-white-color);
+    background: var(--italy-red-color);
+  }
+
+.bg-dark {
+    background-color: var(--italy-green-color)!important;
+}
+
+.bg-light {
+    background-color: var(--italy-white-color)!important;
+}
+
+.bg-white {
+    background-color: var(--italy-white-color)!important;
+}
+
+.bg-primary {
+    background-color: var(--italy-red-color)!important;
+}
+
+.text-white {
+    color: var(--italy-white-color)!important;
+}
+
+.text-dark {
+    color: var(--italy-green-color)!important;
+}
+
+.text-primary {
+    color: var(--italy-red-color)!important;
+}
+
+.btn-primary {
+    color: var(--italy-white-color);
+    background-color: var(--italy-red-color);
+    border-color: var(--italy-red-color);
+}
+
+.btn-primary:hover {
+    color: var(--italy-red-color);
+    background-color: var(--italy-white-color);
+    border-color: var(--italy-red-color);
+}
+
+.btn-outline-primary {
+    color: var(--italy-red-color);
+    border-color: var(--italy-red-color);
+}
+
+.btn-outline-primary:hover {
+    color: var(--italy-white-color);
+    background-color: var(--italy-green-color);
+    border-color: var(--italy-green-color);
+}
+
+.btn-outline-secondary {
+    color: var(--italy-green-color);
+    border-color: var(--italy-green-color);
+}
+
+.btn-outline-secondary:hover {
+    color: var(--italy-white-color);
+    background-color: var(--italy-green-color);
+    border-color: var(--italy-green-color);
+}
+
+a {
+    color: var(--italy-red-color);
+}
+
+a:hover {
+    color: var(--italy-red-color);
+}
