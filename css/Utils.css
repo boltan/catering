@@ -1,5 +1,5 @@
 :root {
-    --italy-green-color: #008C45;
+    --italy-green-color: #008c45;
     --italy-white-color: #F4F5F0;
     --italy-red-color: #CD212A;
 }
@@ -7,6 +7,10 @@
 * {
     font-family: 'Varela Round', sans-serif;
 
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 ::-moz-selection { /* Code for Firefox */
