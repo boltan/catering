@@ -13,9 +13,20 @@
 }
 
 .navbar {
+    background-color: transparent!important;
     top: 10px;
     border-bottom: 0px!important;
     width: 90%;
     border-radius: 50px;
     margin: auto;
 }
+
+/*.navbar-toggler {
+    margin: auto;
+}*/
+
+@media only screen and (min-width: 991px) {
+    .show {
+        background-color: blue;
+    }
+  }

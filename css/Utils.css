@@ -4,6 +4,11 @@
     --italy-red-color: #CD212A;
 }
 
+* {
+    font-family: 'Varela Round', sans-serif;
+
+}
+
 ::-moz-selection { /* Code for Firefox */
     color: var(--italy-white-color);
     background: var(--italy-red-color);
@@ -52,6 +57,17 @@
     color: var(--italy-red-color);
     background-color: var(--italy-white-color);
     border-color: var(--italy-red-color);
+}
+
+.btn-primary:active {
+    color: var(--italy-white-color)!important;
+    background-color: var(--italy-red-color)!important;
+    border-color: var(--italy-red-color)!important;
+}
+.btn-primary:focus {
+    color: var(--italy-white-color)!important;
+    background-color: var(--italy-red-color)!important;
+    border-color: var(--italy-red-color)!important;
 }
 
 .btn-outline-primary {
