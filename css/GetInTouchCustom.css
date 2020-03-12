@@ -1,0 +1,62 @@
+body {
+    margin-bottom: 40px;
+}
+
+.formLabel {
+    float: right;
+}
+
+.col-md-4 {
+    text-align: right;
+    background-color: rgb(177, 177, 177);
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-left: 10px;
+    vertical-align: baseline;
+}
+  
+  
+.fa:hover {
+    color: white;
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: #C13584;
+    color: white;
+}
+
+.fa-envelope {
+    background: #f1c218;
+    color: white;
+}
+
+.fa-phone {
+    background: #38a216;
+    color: white;
+}
+
+@media only screen and (max-width: 767px) {
+    .col-md-8 {
+        margin-bottom: 50px;
+    }
+  }
+
+@media only screen and (max-width: 864px) {
+    .fa {
+        margin-left: 32px;
+        margin-bottom: 15px;
+    }
+  }
