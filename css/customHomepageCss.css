@@ -1,7 +1,3 @@
-body {
-    background-color: var(--italy-white-color);
-}
-
 .mainLogo {
     margin-bottom: 0!important;
 }
@@ -41,11 +37,7 @@ body {
 }
 
 .featurette {
-    text-align: right;
-}
-
-.header {
-    background-color: rgba(240, 245, 244, 0.9);
+    text-align: center;
 }
 
 .carousel-caption {

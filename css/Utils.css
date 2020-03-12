@@ -1,12 +1,15 @@
 :root {
     --italy-green-color: #008c45;
-    --italy-white-color: #F4F5F0;
+    --italy-white-color: #f4f5f0;
     --italy-red-color: #CD212A;
 }
 
 * {
     font-family: 'Varela Round', sans-serif;
+}
 
+body {
+    background-color: var(--italy-white-color);
 }
 
 a:hover {
