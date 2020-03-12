@@ -1,3 +1,31 @@
+function StartUp() {
+    var blink = keyreader("blink");
+    if(blink == null)
+    {
+        return;
+    }
+    else if(blink == 1)
+    {
+        massegeIconOnClick();
+    }
+    else if(blink == 2)
+    {
+        phoneIconOnClick();
+    }
+}
+
+function keyreader(Key) {
+    var url = window.location.href;
+    KeysValues = url.split(/[\?&]+/);
+    for (i = 0; i < KeysValues.length; i++) {
+      KeyValue= KeysValues[i].split("=");
+      if (KeyValue[0] == Key) {
+        return KeyValue[1];
+    }
+  }
+}
+
+
 async function phoneIconOnClick() {
     var phone = document.getElementById("ajiPhone");
     phone.scrollIntoView();
