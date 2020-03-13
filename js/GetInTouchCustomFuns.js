@@ -1,4 +1,8 @@
 function StartUp() {
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+        document.getElementById('mobileConP').style.display = 'block';
+        document.getElementById('desktopConP').style.display = 'none';
+    }
     var blink = keyreader("blink");
     if(blink == null)
     {
