@@ -1,7 +1,11 @@
+var isMobile = false;
+
+
 function StartUp() {
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
         document.getElementById('mobileConP').style.display = 'block';
         document.getElementById('desktopConP').style.display = 'none';
+        isMobile = true;
     }
     var blink = keyreader("blink");
     if(blink == null)
@@ -34,17 +38,25 @@ async function phoneIconOnClick() {
     var phone = document.getElementById("ajiPhone");
     phone.scrollIntoView();
     var blinkDuration = 300;
-    phone.style.color = 'blue';
+    if(!isMobile)
+    {
+        phone.style.color = '#007bff';
+        await new Promise(r => setTimeout(r, blinkDuration));
+    }
+    phone.style.color = '#212529';
+    await new Promise(r => setTimeout(r, blinkDuration));
+    phone.style.color = '#007bff';
     await new Promise(r => setTimeout(r, blinkDuration));
     phone.style.color = '#212529';
     await new Promise(r => setTimeout(r, blinkDuration));
-    phone.style.color = 'blue';
+    phone.style.color = '#007bff';
     await new Promise(r => setTimeout(r, blinkDuration));
     phone.style.color = '#212529';
-    await new Promise(r => setTimeout(r, blinkDuration));
-    phone.style.color = 'blue';
-    await new Promise(r => setTimeout(r, blinkDuration));
-    phone.style.color = '#212529';
+    if(isMobile)
+    {
+        await new Promise(r => setTimeout(r, blinkDuration));
+        phone.style.color = '#007bff';
+    }
 }
 
 async function massegeIconOnClick() {
