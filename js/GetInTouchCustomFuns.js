@@ -33,9 +33,14 @@ function keyreader(Key) {
   }
 }
 
-
 async function phoneIconOnClick() {
-    var phone = document.getElementById("ajiPhone");
+    var phone;
+    if(!isMobile) {
+        phone = document.getElementById("ajiPhone");
+    }
+    else {
+        phone = document.getElementById("ajiPhoneClickable");
+    }
     phone.scrollIntoView();
     var blinkDuration = 300;
     if(!isMobile)
