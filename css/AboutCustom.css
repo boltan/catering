@@ -1,18 +1,6 @@
-body {
-    margin-bottom: 40px;
-}
-
-#mobileConP {
-    display: none;
-}
-
-.formLabel {
-    float: right;
-}
-
-.col-md-4 {
-    text-align: right;
-    background-color: rgb(177, 177, 177);
+.col-md-4 img {
+    width: 100%;
+    border-radius: 20px;
 }
 
 .featurette-divider {
@@ -55,16 +43,3 @@ body {
     background: #38a216;
     color: white;
 }
-
-@media only screen and (max-width: 767px) {
-    .col-md-8 {
-        margin-bottom: 50px;
-    }
-  }
-
-@media only screen and (max-width: 864px) {
-    .fa {
-        margin-left: 32px;
-        margin-bottom: 15px;
-    }
-  }

@@ -1,0 +1,11 @@
+.dishName {
+    font-weight: bold;
+}
+
+.dish-list {
+    list-style-type: circle;
+}
+
+.featurette-divider {
+    margin: 5rem 0;
+}
