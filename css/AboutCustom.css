@@ -3,8 +3,12 @@
     border-radius: 20px;
 }
 
-#whatsappIcon {
+#whatsappIcon, #aboutPhoneLink, #aboutWhatsappLink {
     display: none;
+}
+
+#aboutPhoneLink, #aboutPhoneSpan {
+    white-space: nowrap;
 }
 
 .featurette-divider {
