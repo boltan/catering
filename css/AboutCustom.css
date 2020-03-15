@@ -3,6 +3,10 @@
     border-radius: 20px;
 }
 
+#whatsappIcon {
+    display: none;
+}
+
 .featurette-divider {
     margin: 5rem 0;
 }
