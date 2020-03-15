@@ -2,6 +2,10 @@
     margin-bottom: 0!important;
 }
 
+#whatsappIcon {
+    display: none;
+}
+
 #carouselItemNo1 {
     background-image: url(../images/food/94f2b0fa-8e83-4edf-a7f9-9295a4cb88b1.jpg);
 }
@@ -83,12 +87,12 @@
     color: white;
 }
 
-.fa-envelope {
-    background: #f1c218;
+.fa-phone {
+    background: #38a216;
     color: white;
 }
 
-.fa-phone {
-    background: #38a216;
+.fa-whatsapp {
+    background: #25D366;
     color: white;
 }

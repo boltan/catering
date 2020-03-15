@@ -41,7 +41,7 @@ Yehonatan Refael Boltansky! :) -->
     <link href="css/customHomepageCss.css" rel="stylesheet">
     <link href="css/navbarCustomCss.css" rel="stylesheet">
   </head>
-  <body id="top">
+  <body id="top" onload="StartUp()">
     
     <div class="header sticky-top">
       <a href="index.html"><img class="d-block mx-auto mb-4 mainLogo" src="images/logos/transparent_logo_in_png_squre.png" alt="" width="200px" height="200px"></a>
@@ -58,9 +58,6 @@ Yehonatan Refael Boltansky! :) -->
             </li>
             <li class="nav-item">
               <a class="nav-link" href="pages/About.html">אודות</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pages/Events.html">אירועים</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="pages/Menu.html">תפריט</a>
@@ -113,7 +110,7 @@ Yehonatan Refael Boltansky! :) -->
 
       <div class="row featurette">
         <div class="col-md-7 order-md-2" dir="rtl">
-          <h2 class="featurette-heading">הקייטרינג שלי</h2>
+          <h2 class="featurette-heading"></h2>
           <p class="lead">הקייטרינג האיטלקי שאני מציע מתאים לכל סוגי האירועים: ימי הולדת, מסיבות רווקות ורווקים, בריתות וכדומה הכוללים עד 50 איש, שכן המטרה היא לספק חוויה אישית לכל האורחים. ניתן לבצע התאמות לרגישויות השונות ולטבעונים כמובן.</p>
         </div>
         <div class="col-md-5 order-md-1">
@@ -129,12 +126,12 @@ Yehonatan Refael Boltansky! :) -->
           <p class="lead">
             <a href="https://www.facebook.com/AJI-100793134842055/" class="fa fa-facebook" target="_blank"></a>
             <a href="https://www.instagram.com/eyalaji/?igshid=pz3qha4qxozf" class="fa fa-instagram" target="_blank"></a>
-            <a href="pages/GetInTouch.html?blink=1" class="fa fa-envelope"></a>
-            <a href="pages/GetInTouch.html?blink=2" class="fa fa-phone"></a>
+            <a href="pages/GetInTouch.html" class="fa fa-phone"></a>
+            <a href="#" class="fa fa-whatsapp" id="whatsappIcon" target="_blank"> </a>
           </p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive rounded-circle" data-src="holder.js/370x370/auto" alt="370x370" width="370" height="370" src="images/logos/coolPizzaSquare.jpg" data-holder-rendered="true">
+          <img class="featurette-image img-responsive rounded-circle" data-src="hoer.js/370x370/auto" alt="370x370" width="370" height="370" src="images/logos/coolPizzaSquare.jpg" data-holder-rendered="true">
         </div>
       </div>
   
@@ -149,6 +146,7 @@ Yehonatan Refael Boltansky! :) -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
   <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/indexCustom.js"></script>
   <script>
     $('.carousel').carousel({
       interval: 2500
