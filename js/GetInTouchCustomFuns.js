@@ -6,7 +6,7 @@ function StartUp() {
         document.getElementById('mobileConP').style.display = 'block';
         document.getElementById('desktopConP').style.display = 'none';
         isMobile = true;
-        document.getElementById('whatsappIcon').style.display = 'block';
+        document.getElementById('whatsappIcon').style.display = 'inline-block';
     }
 }
 
