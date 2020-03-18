@@ -57,6 +57,25 @@
     background-image: url(../images/food/38e89154-3336-4b68-a999-eb5f541e80dc.jpg);
 }
 
+#dish13 {
+    background-image: url(../images/food/98d21879-062d-4a5e-9666-194964b9a2c6.jpg);
+}
+#dish14 {
+    background-image: url(../images/food/1776fdd2-ac10-4c60-af2d-10971f45a1a1.jpg);
+}
+#dish15 {
+    background-image: url(../images/food/cc16beff-b38c-497e-9399-4ba5819783fd.jpg);
+}
+#dish16 {
+    background-image: url(../images/food/98.jpg);
+}
+#dish17 {
+    background-image: url(../images/food/4b4b924b-1896-4f41-9088-4b99302068f8.jpg);
+}
+#dish18 {
+    background-image: url(../images/food/9940b86c-9e41-4876-8eaa-33583b0f2819.jpg);
+}
+
 @media only screen and (max-width: 991px)  and (min-width: 768px) {
     .col-md-4 {
         -ms-flex: 0 0 50%;
