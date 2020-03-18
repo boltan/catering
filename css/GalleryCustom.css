@@ -15,6 +15,10 @@
     font-weight: bold;
 }
 
+.featurette-divider {
+    margin: 5rem 0;
+}
+
 
 #dish1 {
     background-image: url(../images/food/14.jpg);
