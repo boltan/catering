@@ -1,0 +1,62 @@
+.card-text {
+    text-align: right;
+}
+
+.dishPic {
+    width: 100%;
+    height: 225px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.dishName {
+    font-weight: bold;
+}
+
+
+#dish1 {
+    background-image: url(../images/food/14.jpg);
+}
+#dish2 {
+    background-image: url(../images/food/57.jpg);
+}
+#dish3 {
+    background-image: url(../images/food/31.jpg);
+}
+#dish4 {
+    background-image: url(../images/food/48.jpg);
+}
+#dish5 {
+    background-image: url(../images/food/71.jpg);
+}
+#dish6 {
+    background-image: url(../images/food/61.jpg);
+}
+#dish7 {
+    background-image: url(../images/food/90d843d3-1efe-4a1a-99c9-f71fbbc91d3d.jpg);
+}
+#dish8 {
+    background-image: url(../images/food/93479875-f18b-47ef-9b5e-51b1dcab2fce.jpg);
+}
+#dish9 {
+    background-image: url(../images/food/36ad135b-281a-4e42-ab2b-f4aa34fda4ea.jpg);
+}
+#dish10 {
+    background-image: url(../images/food/77e072d2-9983-412a-a8a0-95016870abb9.jpg);
+}
+#dish11 {
+    background-image: url(../images/food/d3651fe3-51ad-444e-ab03-28b0a0332114.jpg);
+}
+#dish12 {
+    background-image: url(../images/food/38e89154-3336-4b68-a999-eb5f541e80dc.jpg);
+}
+
+@media only screen and (max-width: 991px)  and (min-width: 768px) {
+    .col-md-4 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+  }
