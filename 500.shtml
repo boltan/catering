@@ -19,13 +19,13 @@ Yehonatan Refael Boltansky! :) -->
         <link href="css/ErrorPageCustom.css" rel="stylesheet">
         <TITLE>500 Internal Server Error</TITLE>
     </HEAD>
-    <BODY dir="rtl">
+    <BODY>
         <div class="header">
-            <a href="index.html"><img class="d-block mx-auto mb-4 mainLogo" src="images/logos/transparent_logo_in_png_squre.png" alt="" width="200px" height="200px"></a>
+            <a href="http://www.chefaji.co.il"><img class="d-block mx-auto mb-4 mainLogo" src="http://www.chefaji.co.il/images/logos/transparent_logo_in_png_squre.png" alt="" width="200px" height="200px"></a>
         </div>
-        <H1>שגיאת שרת פנימית 500</H1>
-        <p>קרתה תקלה בשרת! בבקשה נסו שוב או לחצו <a href="index.html">כאן</a> כדי לחזור למסך הראשי.</p>
-        <p>במידה והשגיאה חוזרת נשמח אם תפנו אלינו בכתובת <a href="mailto:support@chefaji.co.il">support@chefaji.co.il</a>.</p>
+        <H1>500 Internal Server Error</H1>
+        <P>There was an internal server error. Press <A href="http://www.chefaji.co.il">here</A> to go back to the main page.</P>
+        <P>If this error keeps happening, please contect us on <A href="mailto:support@chefaji.co.il">support@chefaji.co.il</A></P>
         <HR>
         <I><!--#echo var="HTTP_HOST" --></I>
     </BODY>
