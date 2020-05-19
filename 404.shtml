@@ -1,0 +1,283 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML>
+    <!--Website made by:
+    
+██╗   ██╗██████╗ ██████╗ 
+╚██╗ ██╔╝██╔══██╗██╔══██╗
+ ╚████╔╝ ██████╔╝██████╔╝
+  ╚██╔╝  ██╔══██╗██╔══██╗
+   ██║   ██║  ██║██████╔╝
+   ╚═╝   ╚═╝  ╚═╝╚═════╝ 
+                         
+Yehonatan Refael Boltansky! :) -->
+    <HEAD>
+        <!-- Bootstrap core CSS -->
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <!--font by google-->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap&subset=hebrew" rel="stylesheet">
+        <link href="css/Utils.css" rel="stylesheet">
+        <link href="css/ErrorPageCustom.css" rel="stylesheet">
+        <TITLE>404 Not Found</TITLE>
+    </HEAD>
+    <BODY dir="rtl">
+        <div class="header">
+            <a href="index.html"><img class="d-block mx-auto mb-4 mainLogo" src="images/logos/transparent_logo_in_png_squre.png" alt="" width="200px" height="200px"></a>
+        </div>
+        <H1>שגיאת עמוד לא נמצא 404</H1>
+        <p>העמוד שחיפשת לא קיים. לחץ <a  href="index.html">כאן</a> כדי לחזור לעמוד הראשי.</p>
+        <p>במידה והשגיאה חוזרת נשמח אם תפנו אלינו בכתובת <a href="mailto:support@chefaji.co.il">support@chefaji.co.il</a>.</p>
+        <HR>
+        <I><!--#echo var="HTTP_HOST" --></I>
+    </BODY>
+</HTML>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

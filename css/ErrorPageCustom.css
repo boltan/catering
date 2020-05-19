@@ -1,0 +1,23 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:link {
+    color: teal;
+    text-decoration: none;
+  }
+  
+a:visited {
+    color: teal;
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
+  
+a:active {
+    text-decoration: underline;
+}
